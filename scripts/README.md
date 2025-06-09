@@ -1,5 +1,5 @@
 # How to download SIPRI arms transfer data as a dataframe instead of a rich-text file in R
-* Use the sipri_data_download.R script to get the SIPRI data as a dataframe.
+* Use the `sipri_data_download.R` script to get the SIPRI data as a dataframe.
 
 * To adjust the timespan, change the `low_year` and/or `high_year` variables. E.g. `'low_year=2010'`.
 
