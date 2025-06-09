@@ -1,4 +1,6 @@
 # How to download SIPRI arms transfer data as a dataframe instead of a rich-text file in R
+* Use the sipri_data_download.R script to get the SIPRI data as a dataframe.
+
 * To adjust the timespan, change the `low_year` and/or `high_year` variables. E.g. `'low_year=2010'`.
 
 * To get data only for specific countries, add their three-letter codes to the `seller_country_code` and/or `buyer_country_code` variables, with each country code separated by a space. E.g. focus on Russia and China: ‘`seller_country_code = 'RUS CHI'`’.
